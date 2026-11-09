@@ -180,7 +180,7 @@ p {
 
 
 .nutrition-facts {
-      padding: 10px;
+      padding: 20px;
       display: block;
       position: relative;
       width: 50%;
@@ -192,7 +192,8 @@ p {
 }
 
 .work-title {
-      position: relative;
+      margin-top: 100px;
+      position: block;
       font-family: Arial, serif, sans-serif;
       font-style: none;
       font-size: 45px;
