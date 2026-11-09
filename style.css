@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif
+}
+
+:root {
+    --bgcolor: #ffffff;
+    --textcolor: #3f3f3f;
+    --main-color: #00fff2;
+}
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
 body {
       background-color: #ffffff;
 }
@@ -7,32 +25,56 @@ p {
       font-size: 25px;
 }
 
-.corner-image {
-      position: fixed;
-      right: 50px;
-      bottom: 50px;
-      max-width: 400px;
-      z-index: 10;
+
+.logo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
-.nav ul {
-      list-style-type: none;
-      padding: 10px;
-      margin: 10px;
+
+.navbar{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+}
+.navbar ul{ 
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: var(--textcolor);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: var(--main-color);
+    color: var(--bgcolor);
 }
 
-.nav a {
-      padding: 10px;
-      display: block;
-      text-align: left;
-      text-decoration: none;
-      color: black;
-      font-family: Arial, sans-serif;
-      font-size: 35px;
+.navbar a:active{
+    background-color: var(--main-color);
+    color: var(--bgcolor);
 }
 
-.nav a:hover {
-      color: rgb(90, 90, 90);
+.navbar li{
+    height: 50px;
+
+}
+
+.logo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 #icon1 {
@@ -117,6 +159,7 @@ p {
       }
 }
 
+
 .luck {
       position: fixed;
       left: 60%;
@@ -133,6 +176,8 @@ p {
       color: rgb(0, 0, 255);
       font-style: italic;
 }
+
+
 
 .nutrition-facts {
       padding: 10px;
